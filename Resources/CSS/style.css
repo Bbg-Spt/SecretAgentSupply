@@ -80,9 +80,14 @@ header .top-banner {
   margin: 0.75rem;
 }
 
-.content {
-  width: 960px;
+.middle {
   display: flex;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  width: 960px;
   flex-direction: column;
 }
 
@@ -133,4 +138,17 @@ header .top-banner {
 .contact-info .contact-details {
   color: black;
   padding: 0.25rem;
+}
+
+footer {
+  background-color: black;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .footer-text {
+  width: 960px;
+  text-align: left;
 }
