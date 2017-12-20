@@ -79,3 +79,58 @@ header .top-banner {
 .buttons span {
   margin: 0.75rem;
 }
+
+.content {
+  width: 960px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content .products {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.products .product-box {
+  display: flex;
+  flex-direction: column;
+  border: 4px solid black;
+  margin: 3rem 0;
+  max-width: 30%;
+}
+
+.product-box img {
+  width: auto;
+  max-height: 9rem;
+  margin: 2rem;
+}
+
+.product-box span {
+  background-color: black;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.content .contact {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.contact .contact-info {
+  margin: 3rem 0 4rem 0;
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+
+.contact-info .contact-type {
+  background-color: black;
+  padding: 1rem 2rem;
+}
+
+.contact-info .contact-details {
+  color: black;
+  padding: 0.25rem;
+}
